@@ -8,4 +8,5 @@ Built using pure HTML and CSS. Utilizes flexbox for positioning, and a few custo
 
 
 [Live Demo](https://isamardzija.github.io/FrontendmentorIO/01%20QRCode%20Component%20Main/)
+
 [Repo](https://github.com/isamardzija/FrontendmentorIO/tree/main/01%20QRCode%20Component%20Main)
