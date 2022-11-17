@@ -1,0 +1,48 @@
+:root {
+  /* COLORS */
+  --cp-darkCyan: hsl(158, 36%, 37%);
+  --cp-cream: hsl(30, 38%, 92%);
+  --cn-veryDarkBlue: hsl(212, 21%, 14%);
+  --cn-darkGrayishBlue: hsl(228, 12%, 48%);
+  --cn-white: hsl(0, 0%, 100%);
+
+  /* FONTS */
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-pricing: "Fraunces", serif;
+
+  /* FONT WEIGHTS */
+  --fw-normal: 500;
+  --fw-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cp-cream);
+}
+
+main {
+  width: 95vw;
+  height: 90vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: var(--cn-white);
+}
+
+div.pic {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
