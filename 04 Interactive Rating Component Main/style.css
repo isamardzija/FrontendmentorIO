@@ -1,0 +1,19 @@
+:root {
+  /* COLORS */
+  --cp-orange: hsl(25, 97%, 53%);
+  --cn-white: hsl(0, 0%, 100%);
+  --cn-lightGrey: hsl(217, 12%, 63%);
+  --cn-mediumGrey: hsl(216, 12%, 54%);
+  --cn-darkBlue: hsl(213, 19%, 18%);
+  --cn-veryDarkBlue: hsl(216, 12%, 8%);
+
+  /* FONTS */
+  --ff-primary: "Overpass", sans-serif;
+
+  /* FONT SIZES */
+  --fs-paragraph: 15px;
+
+  /* FONT WEIGHTS */
+  --fw-normal: 400;
+  --fw-bold: 700;
+}
