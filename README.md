@@ -17,3 +17,7 @@ Built using pure HTML and CSS. Utilizes flexbox for positioning, and a few custo
 A simple responsive product preview card built using HTML and CSS (both Flex and Grid). Uses separate image sources depending on user' device.
 
 [Live Demo](https://isamardzija.github.io/FrontendmentorIO/02%20Product%20Preview%20Card/product-preview-card-component-main) |  [Repo](https://github.com/isamardzija/FrontendmentorIO/tree/main/02%20Product%20Preview%20Card/product-preview-card-component-main)
+
+# 03 Single Price Grid Component
+
+[Live Demo](https://isamardzija.github.io/FrontendmentorIO/03%20Single%20Grid%20Component%20Master/) | [Repo](https://github.com/isamardzija/FrontendmentorIO/tree/main/03%20Single%20Grid%20Component%20Master)
