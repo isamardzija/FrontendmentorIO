@@ -26,3 +26,9 @@ A simple responsive product preview card built using HTML and CSS (both Flex and
 [Live Demo](https://isamardzija.github.io/FrontendmentorIO/03%20Single%20Grid%20Component%20Master/) | [Repo](https://github.com/isamardzija/FrontendmentorIO/tree/main/03%20Single%20Grid%20Component%20Master)
 
 Responsive CSS grid design with a dash of flexbox.
+
+# 04 Interactive Rating Component
+
+[Live Demo](https://isamardzija.github.io/FrontendmentorIO/04%20Interactive%20Rating%20Component%20Main/) | [Repo](https://github.com/isamardzija/FrontendmentorIO/tree/main/04%20Interactive%20Rating%20Component%20Main)
+
+
