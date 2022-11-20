@@ -24,6 +24,7 @@
   box-sizing: border-box;
   font-family: var(--ff-primary);
   color: var(--cn-white);
+  text-align: center;
 }
 
 body {
@@ -55,6 +56,7 @@ div.thankyouState {
 div.ratingState,
 div.thankyouState > * {
   padding: 0.5em;
+  width: 100%;
 }
 
 div.ratingState > img {
@@ -111,11 +113,14 @@ div.ratingSubmit > button:hover {
   cursor: pointer;
 }
 
-div.thankyouState {
+div.thankyouState,
+div.ratingState {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 span.ratingShow {
