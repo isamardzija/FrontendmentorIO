@@ -1,0 +1,61 @@
+/* CUSTOM  */
+
+:root {
+  /* COLORS */
+  --clr-neutral-100: hsl(36, 100%, 99%);
+  --clr-neutral-300: hsl(233, 8%, 79%);
+  --clr-neutral-500: hsl(236, 13%, 42%);
+  --clr-neutral-700: hsl(240, 100%, 5%);
+  --clr-primary-300: hsl(35, 77%, 62%);
+  --clr-primary-500: hsl(5, 85%, 63%);
+  /* FONTS */
+  --ff-primary: "Inter", sans-serif;
+  /* FONT WEIGHTS  */
+  --fw-normal: 400;
+  --fw-bold: 700;
+  --fw-extraBold: 800;
+}
+/* CSS RESET  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
