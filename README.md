@@ -29,6 +29,9 @@ Responsive CSS grid design with a dash of flexbox.
 
 # 06 Interactive Rating Component
 
+![Screenshot 2022-12-01 125242](https://user-images.githubusercontent.com/74252988/205046138-a02a3687-e345-4504-b581-ce624f6f2117.png)
+
+
 [Live Demo](https://isamardzija.github.io/FrontendmentorIO/06%20Interactive%20Rating%20Component%20Main/?#) | [Repo](https://github.com/isamardzija/FrontendmentorIO/tree/main/06%20Interactive%20Rating%20Component%20Main)
 
 
