@@ -34,4 +34,5 @@ Responsive CSS grid design with a dash of flexbox.
 
 [Live Demo](https://isamardzija.github.io/FrontendmentorIO/06%20Interactive%20Rating%20Component%20Main/?#) | [Repo](https://github.com/isamardzija/FrontendmentorIO/tree/main/06%20Interactive%20Rating%20Component%20Main)
 
+# 07 Expenses Chart Main Component
 
