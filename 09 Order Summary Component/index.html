@@ -36,7 +36,12 @@
   </head>
   <body>
     <div class="main-card">
-      <div class="main-card__hero-wrapper"></div>
+      <div class="main-card__hero-wrapper">
+        <img
+          src="./images/illustration-hero.svg"
+          alt="Illustration of a person listening to music and dancing."
+        />
+      </div>
       <div class="main-card__body-wrapper">
         <h1>Order Summary</h1>
         <p>
@@ -44,10 +49,15 @@
           any device anywhere you like!
         </p>
         <div class="plan-wrapper">
-          <h2>Annual Plan</h2>
-          <span>$59.99/year</span> <button>Change</button>
+          <img src="./images/icon-music.svg" />
+          <div class="chosen-plan">
+            <h2>Annual Plan</h2>
+            <span>$59.99/year</span>
+          </div>
+          <button>Change</button>
         </div>
-        <button>Proceed to Payment</button> <button>Cancel Order</button>
+        <button id="payment">Proceed to Payment</button>
+        <button id="cancel">Cancel Order</button>
       </div>
     </div>
 
