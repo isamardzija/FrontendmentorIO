@@ -43,6 +43,9 @@ body {
     border-radius: 10px;
     @include utilities.flex(row, space-evenly, center, 0);
     background-color: colors.$neutral-300-transparent;
+    .expanded-plans {
+      @include utilities.flex(column, center, center, 1rem);
+    }
     .chosen-plan {
       h2 {
         font-size: typography.$fs-300;
@@ -61,6 +64,7 @@ body {
   button {
     border: none;
     font-weight: typography.$fw-700;
+    cursor: pointer;
   }
   button#payment {
     background-color: colors.$highlight;
