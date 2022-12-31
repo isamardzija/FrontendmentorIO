@@ -11,6 +11,6 @@ function togglePlan() {
     planPricing.innerHTML = "$6.99/month";
   } else {
     planName.innerHTML = "Annual Plan";
-    planPricing.innerHTML = "$59.99/month";
+    planPricing.innerHTML = "$59.99/year";
   }
 }
