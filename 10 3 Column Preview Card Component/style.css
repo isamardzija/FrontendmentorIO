@@ -29,7 +29,6 @@ body {
 main {
   max-width: 830px;
   border-radius: 10px;
-  overflow: hidden;
 }
 
 main section {
@@ -93,6 +92,8 @@ section:last-child button {
 
 /* FOOTER - ATTRIBUTION */
 footer {
+  position: fixed;
+  bottom: 0;
   padding-block: 2rem 0.5rem;
   color: black;
 }
