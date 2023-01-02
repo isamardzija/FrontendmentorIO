@@ -16,14 +16,18 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: var(--fontfamily-text);
   padding: 4rem 1rem;
   color: var(--color-neutral-100);
+  background-color: var(--color-neutral-200);
 }
 
 main {
   max-width: 830px;
-  margin: auto;
   border-radius: 10px;
   overflow: hidden;
 }
