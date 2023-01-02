@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  /* COLORS */
+  --color-primary-warm-400: hsl(31, 77%, 52%);
+  --color-primary-cold-600: hsl(179, 100%, 13%);
+  --color-primary-cold-400: hsl(184, 100%, 22%);
+  --color-neutral-200: hsla(0, 0%, 100%, 0.75);
+  --color-neutral-100: hsl(0, 0%, 95%) hsl(0, 0%, 95%);
+
+  /* FONTS */
+  --fontfamily-headings: "Big Shoulders Display", cursive;
+  --fontfamily-text: "Lexend Deca", sans-serif;
+}
