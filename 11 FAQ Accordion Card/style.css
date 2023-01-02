@@ -20,7 +20,6 @@ body {
     var(--color-gradient-cold)
   );
   padding: 7rem 2rem;
-  overflow: hidden;
   font-family: var(--fontfamily-primary);
   color: var(--color-neutral-500);
 }
@@ -75,7 +74,7 @@ hr {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
