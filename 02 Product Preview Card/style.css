@@ -1,0 +1,16 @@
+:root {
+  /* COLORS */
+  --cp-darkCyan: hsl(158, 36%, 37%);
+  --cp-cream: hsl(30, 38%, 92%);
+  --cn-veryDarkBlue: hsl(212, 21%, 14%);
+  --cn-darkGrayishBlue: hsl(228, 12%, 48%);
+  --cn-white: hsl(0, 0%, 100%);
+
+  /* FONTS */
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-pricing: "Fraunces", serif;
+
+  /* FONT WEIGHTS */
+  --fw-normal: 500;
+  --fw-bold: 700;
+}
