@@ -19,6 +19,8 @@ body {
     var(--color-gradient-warm),
     var(--color-gradient-cold)
   );
+  background-attachment: fixed;
+
   padding: 7rem 2rem;
   font-family: var(--fontfamily-primary);
   color: var(--color-neutral-500);
@@ -33,7 +35,7 @@ main {
 }
 
 img.hero {
-  position: fixed;
+  position: absolute;
   width: 60%;
   max-width: 300px;
   left: 50%;
@@ -41,7 +43,7 @@ img.hero {
 }
 
 img.shadow {
-  position: fixed;
+  position: absolute;
   width: 70%;
   max-width: 300px;
 

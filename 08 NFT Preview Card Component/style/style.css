@@ -9,6 +9,11 @@ body {
   color: hsl(215deg, 51%, 70%);
 }
 
+.main-card {
+  max-height: 100%;
+  max-width: 80%;
+}
+
 .card-wrapper {
   width: 100%;
   max-width: 400px;
