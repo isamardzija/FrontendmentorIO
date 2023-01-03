@@ -22,16 +22,16 @@ body {
   color: var(--colors-neutral-400);
   font-family: var(--fontfamily-primary);
   display: flex;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
 }
 
 main {
   background-color: var(--colors-primary-400);
   max-width: 80%;
-  margin: auto;
-  margin-block: 5rem;
   border-radius: 15px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .main__blurb {
