@@ -42,19 +42,12 @@ main {
   padding-block: 1rem;
 }
 
-h1 {
-  max-width: 20ch;
-  margin: auto;
-}
-
 h1 > span {
   color: var(--colors-accent-400);
 }
 
 p {
   color: var(--colors-neutral-400-t1);
-  max-width: 40ch;
-  margin: auto;
 }
 
 .main__blurb__stats > * {
@@ -106,5 +99,17 @@ picture img {
   .main__blurb__stats {
     display: flex;
     gap: 2rem;
+  }
+  p {
+    max-width: 40ch;
+  }
+  h1 {
+    max-width: 20ch;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .main__blurb {
+    align-items: center;
   }
 }
