@@ -1,0 +1,44 @@
+@use "mixins/colors" as c;
+@use "mixins/typography" as t;
+
+body {
+  font-family: t.$fontfamily-primary;
+  color: c.$primary-300;
+  font-size: t.$fontsize-primary;
+  background-image: c.$gradient-secondary;
+}
+
+h1 {
+  font-size: t.$fontsize-heading;
+  text-align: center;
+  font-weight: t.$fontweight-bold;
+  text-transform: uppercase;
+  line-height: t.$lineheight-normal;
+  color: c.$primary-800;
+  span {
+    color: c.$primary-300;
+    font-weight: t.$fontweight-light;
+  }
+}
+
+p {
+  text-align: justify;
+  font-weight: t.$fontweight-bold;
+}
+
+form {
+  input {
+    border: 1px solid c.$primary-300;
+    outline: none;
+    border-radius: 30px;
+    color: c.$primary-300;
+    &::placeholder {
+      color: c.$primary-300;
+    }
+  }
+  button {
+    background-image: c.$gradient-primary;
+    border: none;
+    cursor: pointer;
+  }
+}
