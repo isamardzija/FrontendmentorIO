@@ -21,6 +21,8 @@ body {
   background-color: var(--colors-primary-500);
   color: var(--colors-neutral-400);
   font-family: var(--fontfamily-primary);
+  display: flex;
+  place-items: center;
 }
 
 main {
