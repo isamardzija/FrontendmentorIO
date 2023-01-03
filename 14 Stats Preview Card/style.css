@@ -111,5 +111,6 @@ picture img {
 @media only screen and (min-width: 1920px) {
   .main__blurb {
     align-items: center;
+    text-align: center;
   }
 }
