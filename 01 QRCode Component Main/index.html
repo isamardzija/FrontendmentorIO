@@ -22,17 +22,6 @@
     <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div class="container">
@@ -42,13 +31,31 @@
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
       </p>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://www.github.com/isamardzija">Ivan Samardžija</a>.
-      </div>
     </div>
+    <!-- FOOTER -->
+    <style>
+      .attribution {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        font-size: 13px;
+        text-align: right;
+        background-color: rgb(0, 0, 0, 0.5);
+        padding: 0.5rem;
+      }
+
+      .attribution a,
+      .attribution span {
+        font-weight: var(--fw-bold);
+        color: white;
+      }
+    </style>
+    <footer class="attribution">
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >
+      <span>|</span>
+      <a href="https://www.github.com/isamardzija">isamardzija</a>.
+    </footer>
   </body>
 </html>
