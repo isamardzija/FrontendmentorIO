@@ -11,7 +11,11 @@ body {
 }
 
 h1 {
-  font-size: t.$fontsize-heading;
+  font-size: clamp(
+    t.$fontsize-heading / 2,
+    t.$fontsize-heading,
+    t.$fontsize-heading * 2
+  );
   text-align: center;
   font-weight: t.$fontweight-bold;
   text-transform: uppercase;
