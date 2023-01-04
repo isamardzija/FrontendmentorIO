@@ -1,34 +1,36 @@
 body {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  row-gap: 2rem;
-  padding: 2rem;
+  gap: 3rem;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding: 5rem;
+}
+div.image {
+  overflow: hidden;
 }
 
-div {
-  flex: 0 0 30%;
+body > div {
+  flex-basis: clamp(10%, 400px, 100%);
+  border: 1px solid grey;
+  border-radius: 10px;
   padding: 1rem;
-  position: relative;
 }
 
-img {
-  width: 100%;
-  min-width: 300px;
-  border-radius: 25px 25px 0 0;
+img:hover {
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 a {
-  position: absolute;
-  left: 1rem;
-  bottom: 1rem;
-  color: white;
-  width: calc(100% - 2rem);
-  text-align: center;
-  background-color: rgb(0, 0, 0, 0.6);
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+  font-weight: bold;
+  padding-inline: 1rem;
   text-decoration: none;
 }
