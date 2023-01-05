@@ -47,12 +47,16 @@ body {
   font-size: var(--fontsize-primary);
   padding: 0.5rem 1rem;
   color: var(--colors-neutral-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-width: 800px;
 }
 
 .notifications__header {
@@ -96,7 +100,7 @@ h1 {
 
 .new {
   background-color: var(--colors-neutral-100);
-  box-shadow: 0px 0px 10px rgba(215, 215, 215, 0.61);
+  box-shadow: 0px 0px 10px rgba(215, 215, 215, 0.86);
 }
 
 .notification > img {
@@ -108,9 +112,18 @@ span.person {
   color: var(--colors-neutral-900);
 }
 
+span.person:hover {
+  color: var(--colors-primary-cold-400);
+  cursor: pointer;
+}
+
 span.notificationContent {
   font-weight: var(--fontweight-bold);
   position: relative;
+}
+span.notificationContent:hover {
+  color: var(--colors-primary-cold-400);
+  cursor: pointer;
 }
 
 span.notificationTime {
@@ -122,6 +135,11 @@ p.notification__message {
   font-size: var(--fontsize-small);
   border: 1px solid var(--colors-neutral-200);
   padding: 0.7rem;
+}
+
+p.notification__message:hover {
+  background-color: var(--colors-neutral-200);
+  cursor: pointer;
 }
 
 .unreadNotification {
@@ -143,4 +161,18 @@ p.notification__message {
   transform: translateY(-3px);
   border-radius: 100%;
   margin-left: 0.2rem;
+}
+
+.notificationActivity > img {
+  height: 40px;
+  position: absolute;
+  right: 0;
+}
+
+.notificationActivity > img:hover {
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
