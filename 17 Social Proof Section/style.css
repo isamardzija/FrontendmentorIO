@@ -1,0 +1,98 @@
+/* CUSTOM */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+:root {
+  /* COLORS */
+  --color-primary-600: hsl(300, 43%, 22%);
+  --color-primary-400: hsl(333, 80%, 67%);
+  --color-neutral-500: hsl(303, 10%, 53%);
+  --color-neutral-300: hsl(300, 24%, 96%);
+  --color-neutral-100: hsl(0, 0%, 100%);
+
+  /* TYPOGRAPHY */
+  --fontfamily-primary: "League Spartan", sans-serif;
+  --fontsize-primary: 0.9375rem;
+  --fontweight-normal: 400;
+  --fontweight-bold: 500;
+  --fontweight-extrabold: 700;
+}
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  padding: 3rem 1rem;
+  font-family: var(--fontfamily-primary);
+  font-size: var(--fontsize-primary);
+  color: var(--color-primary-600);
+  text-align: center;
+}
+
+.publication {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-block: 2rem;
+}
+
+.publication__rating {
+  background-color: var(--color-neutral-300);
+  padding-block: 0.5rem;
+}
+
+.publication__rating > img {
+  padding-inline: 0.1rem;
+}
+
+.publication__rating > span {
+  display: block;
+  font-weight: var(--fontweight-extrabold);
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.client__card {
+  background-color: var(--color-primary-600);
+  color: var(--color-neutral-100);
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+
+.client__card p {
+  line-height: 1.4;
+}
+
+.client__card__profile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.client__card__profile img {
+  border-radius: 100%;
+  max-width: 15%;
+}
+
+.client__card__profile h2 {
+  font-size: var(--fontsize-primary);
+}
+.client__card__profile span {
+  color: var(--color-primary-400);
+}
