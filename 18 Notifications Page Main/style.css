@@ -49,14 +49,17 @@ body {
   color: var(--colors-neutral-500);
   display: flex;
   justify-content: center;
-  align-items: center;
+  background-color: var(--colors-neutral-200);
 }
 
 main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 800px;
+  max-width: 600px;
+  background-color: var(--colors-neutral-000);
+  padding: 2rem 1rem;
+  box-shadow: 0px 0px 10px rgba(215, 215, 215, 0.86);
 }
 
 .notifications__header {
