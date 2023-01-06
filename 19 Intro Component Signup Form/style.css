@@ -27,11 +27,12 @@
 }
 
 main {
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
   justify-content: space-between;
+  max-width: 1366px;
 }
 
 body {
@@ -148,7 +149,7 @@ form span a {
     font-size: 3rem;
   }
   * {
-    font-size: 1.2rem;
+    font-size: 0.925rem;
   }
   a {
     font-size: var(--fontsize-small);
