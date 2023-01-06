@@ -75,7 +75,7 @@ form {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 2rem;
 }
 
 form input {
@@ -83,6 +83,7 @@ form input {
   padding: 1rem 0.5rem;
   font-weight: var(--fontweight-extrabold);
   border: 1px solid var(--colors-neutral-200);
+  border-radius: 5px;
 }
 form button {
   background-color: var(--colors-primary-cold-400);
@@ -93,6 +94,17 @@ form button {
   padding: 0.75rem 2.5rem;
   border-radius: 5px;
   box-shadow: 0px 3px 0px var(--colors-primary-cold-500);
+}
+
+.singleInput > * {
+  width: 100%;
+}
+
+div.singleInput span.message {
+  display: block;
+  text-align: right;
+  color: var(--colors-primary-warm-400);
+  padding-top: 0.2rem;
 }
 
 form button:is(:hover, :focus) {
@@ -141,4 +153,8 @@ form span a {
   a {
     font-size: var(--fontsize-small);
   }
+}
+
+.hide {
+  visibility: hidden;
 }

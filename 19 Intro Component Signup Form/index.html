@@ -29,36 +29,56 @@
         <section class="price__box">
           <span>Try it free 7 days</span> <span>then $20/mo. thereafter</span>
         </section>
-        <form action="#">
-          <input
-            required
-            type="text"
-            name="firstName"
-            id="firstName"
-            placeholder="First Name"
-          />
-          <input
-            required
-            type="text"
-            name="lastName"
-            id="lastName"
-            placeholder="Last Name"
-          />
-          <input
-            required
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email Address"
-          />
-          <input
-            required
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Password"
-          />
-          <button>Claim your free trial</button>
+        <form action="./submit.html">
+          <div class="singleInput">
+            <input
+              required
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name"
+            />
+            <span class="message hide" id="firstNameMessage"
+              >First name cannot be empty</span
+            >
+          </div>
+          <div class="singleInput">
+            <input
+              required
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name"
+            />
+            <span class="message hide" id="lastNameMessage"
+              >Last name cannot be empty</span
+            >
+          </div>
+          <div class="singleInput">
+            <input
+              required
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <span class="hide message" id="emailMessage"
+              >Email cannot be empty</span
+            >
+          </div>
+          <div class="singleInput">
+            <input
+              required
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <span class="hide message" id="passwordMessage"
+              >Password cannot be empty</span
+            >
+          </div>
+          <button id="submit">Claim your free trial</button>
           <span
             >By clicking the button, you are agreeing to our
             <a href="#"> Terms and Services </a></span
