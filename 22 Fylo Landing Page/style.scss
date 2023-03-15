@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+// Colors
+$color-primary-600: hsl(243, 87%, 12%);
+$color-primary-400: hsl(238, 22%, 44%);
+
+$color-neutral-400: hsl(0, 0%, 75%);
+$color-neutral-200: hsl(240, 75%, 98%);
+
+$color-accent-blue: hsl(224, 93%, 58%);
+$color-accent-green: hsl(170, 45%, 43%);
+
+// Typography
+$fontfamily-body: 'Open Sans', sans-serif;
+
+$fontfamily-heading: 'Raleway', sans-serif;
+
+// Layout
+$maxwidth-desktop: 1440px;
+
+$maxwidth-mobile: 375px;
