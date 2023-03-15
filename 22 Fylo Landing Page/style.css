@@ -1,3 +1,215 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(243, 87%, 12%);
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+body > *:not(section.cta, footer) {
+  padding-inline: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  gap: 1.5rem;
+}
+header .header__logo {
+  flex: 0 1 100px;
+}
+header .header__logo img {
+  width: 100%;
+}
+header .header__nav {
+  flex: 1;
+}
+header .header__nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+header .header__nav ul li a {
+  font-size: 0.875rem;
+  color: hsl(243, 87%, 12%);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+.hero .hero__text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.hero .hero__text h1 {
+  font-weight: 700;
+}
+.hero .hero__text form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.hero .hero__text form input {
+  padding: 0.75rem;
+  border: 2px solid hsl(238, 22%, 44%);
+  border-radius: 0.125rem;
+}
+.hero .hero__text form button {
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  padding-block: 0.75rem;
+  color: hsl(240, 75%, 98%);
+  font-weight: 700;
+  border-radius: 0.125rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  padding-block: 4rem;
+}
+.about .about__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+.about .about__text h2 {
+  text-align: center;
+  font-size: 1.25rem;
+}
+.about .about__text p {
+  color: hsl(238, 22%, 44%);
+}
+.about .about__text a {
+  color: hsl(170, 45%, 43%);
+  border-bottom: 2px solid hsl(170, 45%, 43%);
+}
+.about figure {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-block: 1rem;
+}
+.about figure .quote__author {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.about figure .quote__author img {
+  max-width: 30px;
+  border-radius: 50%;
+}
+.about figure .quote__author strong {
+  display: block;
+}
+
+.cta {
+  background-color: hsl(238, 22%, 44%);
+  color: hsl(240, 75%, 98%);
+  padding-block: 4rem;
+}
+.cta .cta__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  padding-block: 1rem;
+}
+.cta .cta__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-inline: 4rem;
+}
+.cta .cta__form form input {
+  padding: 0.75rem;
+  border: 2px solid hsl(238, 22%, 44%);
+  border-radius: 0.125rem;
+}
+.cta .cta__form form button {
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  padding-block: 0.75rem;
+  color: hsl(240, 75%, 98%);
+  font-weight: 700;
+  border-radius: 0.125rem;
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+  color: hsl(240, 75%, 98%);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+footer .footer__address {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-block: 4rem;
+}
+footer .footer__address img {
+  max-width: 200px;
+}
+footer .footer__address address {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+footer .footer__nav {
+  padding-block: 0.5rem;
+}
+footer .footer__nav nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+footer .footer__nav nav ul li a {
+  color: hsl(0, 0%, 75%);
+}
+footer .footer__social ul {
+  justify-content: center;
+  gap: 1rem;
+  display: flex;
+  padding-block: 1.5rem;
+}
+footer .footer__social ul li {
+  display: flex;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 0.5rem;
+}
 
 /*# sourceMappingURL=style.css.map */

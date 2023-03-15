@@ -19,20 +19,22 @@
   <body>
     <!-- Header -->
     <header>
-      <nav>
-        <img src="./images/logo.svg" alt="Fylo logo" />
-        <ul>
-          <li>
-            <a href="#">Features</a>
-          </li>
-          <li>
-            <a href="#">Team</a>
-          </li>
-          <li>
-            <a href="#">Sign In</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header__logo"><img src="./images/logo.svg" alt="Fylo logo" /></div>
+      <div class="header__nav">
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Team</a>
+            </li>
+            <li>
+              <a href="#">Sign In</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- Hero -->
     <section class="hero">
@@ -44,7 +46,7 @@
           and co-workers.
         </p>
         <form>
-          <input type="email" name="email" id="emailTop" />
+          <input type="email" name="email" id="emailTop" placeholder="Enter your email..." />
           <button type="submit">Get Started</button>
         </form>
       </div>
@@ -56,10 +58,12 @@
     <section class="about">
       <div class="about__text">
         <h2>Stay productive, wherever you are</h2>
+        <br>
         <p>
           Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.
           <br />
+          <br>
           Securely share files and folders with friends, family and colleagues
           for live collaboration. No email attachments required!
         </p>
@@ -102,8 +106,7 @@
                 d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
                 fill="#FFF"
               />
-            </g></svg
-        ></a>
+            </g></svg></a>
         <!-- Testimonial -->
         <figure>
           <svg width="13" height="12" xmlns="http://www.w3.org/2000/svg">
@@ -117,13 +120,17 @@
               <tspan x="33" y="56">“</tspan>
             </text>
           </svg>
-          <blockquote>
-            Fylo has improved our team productivity by an order of magnitude.
-            Since making the switch our team has become a well-oiled
-            collaboration machine.
-          </blockquote>
-          <img src="./images/avatar-testimonial.jpg" alt="Kyle Burton avatar" />
-          <figcaption>Kyle Burton Founder & CEO, Huddle</figcaption>
+          <div class="quote__text">
+            <blockquote>
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </blockquote>
+          </div>
+          <div class="quote__author">
+            <img src="./images/avatar-testimonial.jpg" alt="Kyle Burton avatar" />
+            <figcaption><strong>Kyle Burton</strong> Founder & CEO, Huddle</figcaption>
+          </div>
         </figure>
       </div>
       <div class="about__image">
@@ -143,7 +150,7 @@
       </div>
       <div class="cta__form">
         <form>
-          <input type="email" name="email" id="emailBottom" />
+          <input type="email" name="email" id="emailBottom" placeholder="email@example.com" />
           <button type="submit">Get Started For Free</button>
         </form>
       </div>
@@ -151,7 +158,7 @@
     <!-- Footer -->
     <footer>
       <div class="footer__address">
-        <img src="./images/logo" alt="Fylo logo" />
+        <img src="./images/logo.svg" alt="Fylo logo" />
         <address>
           <span class="phone">
             <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
@@ -190,6 +197,7 @@
             <li>
               <a href="#">Blog</a>
             </li>
+            <br>
             <li>
               <a href="#">Contact Us</a>
             </li>
