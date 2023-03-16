@@ -35,6 +35,14 @@ a {
   text-decoration: none;
 }
 
+button:hover, .footer__social svg {
+  cursor: pointer;
+}
+
+input:is(:hover, :focus, :active) {
+  outline: 1px solid hsl(0, 0%, 75%);
+}
+
 header {
   display: flex;
   gap: 1.5rem;
@@ -95,6 +103,7 @@ header .header__nav ul li a {
   flex-direction: column-reverse;
   gap: 1rem;
   padding-block: 4rem;
+  background: url("./images/bg-curve-desktop.svg") #F8F8FE no-repeat top;
 }
 .about .about__text {
   display: flex;
@@ -210,6 +219,71 @@ footer .footer__social ul li {
   border-radius: 50%;
   border: 2px solid white;
   padding: 0.5rem;
+}
+
+@media screen and (min-width: 650px) {
+  body {
+    gap: 4rem;
+    max-width: 1440px;
+    margin: auto;
+  }
+  header {
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .header__nav {
+    flex: 0 1 300px;
+  }
+  .hero {
+    flex-direction: row;
+    align-items: center;
+  }
+  .hero .hero__text, .hero .hero__image {
+    flex: 1;
+  }
+  .hero .hero__text {
+    text-align: left;
+  }
+  .hero .hero__text form {
+    flex-direction: row;
+  }
+  .hero .hero__text form input {
+    flex: 1 1 50%;
+  }
+  .hero .hero__text form button {
+    flex: 1 1 30%;
+  }
+  .about {
+    flex-direction: row;
+    align-items: center;
+  }
+  .about .about__text {
+    align-items: flex-start;
+  }
+  .about .about__text figure {
+    max-width: 400px;
+  }
+  .cta {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+  }
+  .cta .cta__text, .cta .cta__form {
+    flex: 1;
+    text-align: left;
+  }
+  .cta button {
+    max-width: 200px;
+  }
+  footer {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+  }
+  footer .footer__nav nav ul {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
